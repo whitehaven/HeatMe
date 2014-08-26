@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E2F5D4DE-0857-497B-9B94-7C206CD97EBD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HeatMe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FBA645FD-5F7D-4145-809C-42C7100DE54E</key>
+		<string>https://github.com/whitehaven/HeatMe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HeatMe.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FBA645FD-5F7D-4145-809C-42C7100DE54E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/whitehaven/HeatMe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FBA645FD-5F7D-4145-809C-42C7100DE54E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FBA645FD-5F7D-4145-809C-42C7100DE54E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HeatMe</string>
+		</dict>
+	</array>
+</dict>
+</plist>

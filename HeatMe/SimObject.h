@@ -34,7 +34,6 @@ public:
     
     void exchangeHeat( double qHeat )
     {
-        cout << endl;
         // q = mcdT, but only T changes
         // ergo, dT = q/(mc)
         if( qHeat == 0 )
@@ -49,15 +48,22 @@ public:
             cout << "+";
         cout << qHeat << "J" << endl;
         cout << "tempK of " << Label << " is now " << tempK << endl;
+        cout << endl;
     }
     
     void dumpdown()
     {
+        cout << endl;
         cout << "Label       = " << Label << endl;
         cout << "Mass        = " << mass << endl;
         cout << "specHeatCap = " << specHeatCap << endl;
         cout << "tempK       = " << tempK << endl;
     }
+    
+    double getTempK() { return tempK; }
+    double getSpecHeatCap() { return specHeatCap; }
+    double getMass() { return mass; }
+    string getLabel() { return Label; }
     
 };
 

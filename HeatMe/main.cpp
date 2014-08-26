@@ -7,18 +7,23 @@
 //
 
 #include <iostream>
+
 #include "SimObject.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[])
 {
-    SimObject Block( 10, 10, 100, "Block" );
-    
-    Block.dumpdown();
+    SimObject Block1( 10, 10, 100, "Block1" );
+    SimObject Block2( 10, 10, 100, "Block2");
 
+    double qHeat = 1500;
     
-    Block.exchangeHeat( 15 );
+    Block1.exchangeHeat( qHeat );
+    Block2.exchangeHeat( -qHeat );
+    
+    Block1.dumpdown();
+    Block2.dumpdown();
     
     return 0;
 }

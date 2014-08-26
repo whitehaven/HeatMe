@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1CB2D58D19AD0C0200F01D16 /* HeatMe.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1CB2D58C19AD0C0200F01D16 /* HeatMe.1 */; };
-		1CB2D59719AD0C2700F01D16 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2D59319AD0C2700F01D16 /* main.cpp */; };
-		1CB2D59819AD0C2700F01D16 /* SimObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2D59519AD0C2700F01D16 /* SimObject.cpp */; };
+		1CB2D59E19AD0CC400F01D16 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2D59A19AD0CC400F01D16 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +27,9 @@
 /* Begin PBXFileReference section */
 		1CB2D58719AD0C0200F01D16 /* HeatMe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeatMe; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB2D58C19AD0C0200F01D16 /* HeatMe.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = HeatMe.1; path = HeatMe/HeatMe.1; sourceTree = "<group>"; };
-		1CB2D59319AD0C2700F01D16 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1CB2D59419AD0C2700F01D16 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
-		1CB2D59519AD0C2700F01D16 /* SimObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimObject.cpp; sourceTree = "<group>"; };
-		1CB2D59619AD0C2700F01D16 /* SimObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimObject.h; sourceTree = "<group>"; };
+		1CB2D59A19AD0CC400F01D16 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = HeatMe/main.cpp; sourceTree = "<group>"; };
+		1CB2D59B19AD0CC400F01D16 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Readme.md; path = HeatMe/Readme.md; sourceTree = "<group>"; };
+		1CB2D59D19AD0CC400F01D16 /* SimObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimObject.h; path = HeatMe/SimObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +47,8 @@
 			isa = PBXGroup;
 			children = (
 				1CB2D58C19AD0C0200F01D16 /* HeatMe.1 */,
-				1CB2D59619AD0C2700F01D16 /* SimObject.h */,
-				1CB2D59519AD0C2700F01D16 /* SimObject.cpp */,
-				1CB2D59319AD0C2700F01D16 /* main.cpp */,
+				1CB2D59D19AD0CC400F01D16 /* SimObject.h */,
+				1CB2D59A19AD0CC400F01D16 /* main.cpp */,
 				1CB2D59919AD0C3500F01D16 /* Noncoding */,
 				1CB2D58819AD0C0200F01D16 /* Products */,
 			);
@@ -68,7 +65,7 @@
 		1CB2D59919AD0C3500F01D16 /* Noncoding */ = {
 			isa = PBXGroup;
 			children = (
-				1CB2D59419AD0C2700F01D16 /* Readme.md */,
+				1CB2D59B19AD0CC400F01D16 /* Readme.md */,
 			);
 			name = Noncoding;
 			sourceTree = "<group>";
@@ -124,8 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB2D59819AD0C2700F01D16 /* SimObject.cpp in Sources */,
-				1CB2D59719AD0C2700F01D16 /* main.cpp in Sources */,
+				1CB2D59E19AD0CC400F01D16 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,10 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C61D57A19AD10E000D4AB28 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		1C61D57B19AD110C00D4AB28 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
 		1CB2D58719AD0C0200F01D16 /* HeatMe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeatMe; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB2D58C19AD0C0200F01D16 /* HeatMe.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = HeatMe.1; path = HeatMe/HeatMe.1; sourceTree = "<group>"; };
 		1CB2D59A19AD0CC400F01D16 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = HeatMe/main.cpp; sourceTree = "<group>"; };
-		1CB2D59B19AD0CC400F01D16 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Readme.md; path = HeatMe/Readme.md; sourceTree = "<group>"; };
 		1CB2D59D19AD0CC400F01D16 /* SimObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimObject.h; path = HeatMe/SimObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +66,8 @@
 		1CB2D59919AD0C3500F01D16 /* Noncoding */ = {
 			isa = PBXGroup;
 			children = (
-				1CB2D59B19AD0CC400F01D16 /* Readme.md */,
+				1C61D57B19AD110C00D4AB28 /* Readme.md */,
+				1C61D57A19AD10E000D4AB28 /* License */,
 			);
 			name = Noncoding;
 			sourceTree = "<group>";
@@ -231,6 +233,7 @@
 				1CB2D59219AD0C0200F01D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

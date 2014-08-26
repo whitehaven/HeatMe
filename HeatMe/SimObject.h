@@ -32,24 +32,31 @@ public:
         this->Label = Label;
     }
     
-    void exchangeHeat( int qHeat )
+    void exchangeHeat( double qHeat )
     {
+        cout << endl;
         // q = mcdT, but only T changes
         // ergo, dT = q/(mc)
         if( qHeat == 0 )
             return;
-        qHeat > 0 ? cout << "Heating " : cout << "Cooling ";
-        cout << "by " << qHeat << "J" << endl;
+        
         tempK += qHeat / ( mass * specHeatCap);
-        cout << "TempK of " << Label << " is now " << tempK << endl;
+        if( tempK < 0 )
+            tempK = 0;
+        
+        cout << "qHeat = ";
+        if( qHeat > 0 )
+            cout << "+";
+        cout << qHeat << "J" << endl;
+        cout << "tempK of " << Label << " is now " << tempK << endl;
     }
     
     void dumpdown()
     {
-        cout << "Lable =       " << Label << endl;
-        cout << "Mass =        " << mass << endl;
+        cout << "Label       = " << Label << endl;
+        cout << "Mass        = " << mass << endl;
         cout << "specHeatCap = " << specHeatCap << endl;
-        cout << "tempK =       " << tempK << endl;
+        cout << "tempK       = " << tempK << endl;
     }
     
 };

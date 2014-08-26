@@ -13,11 +13,12 @@ using namespace std;
 
 int main(int argc, const char * argv[])
 {
-    SimObject Block1( 10, 10, 10, "Block1" );
+    SimObject Block( 10, 10, 100, "Block" );
     
-    Block1.dumpdown();
+    Block.dumpdown();
+
     
-    Block1.exchangeHeat( 50 );
+    Block.exchangeHeat( 15 );
     
     return 0;
 }
